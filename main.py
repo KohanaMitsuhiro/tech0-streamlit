@@ -24,5 +24,7 @@ button = left_column.button("右カラムに文字を表示")
 if button:
     right_columu.write("ここは右カラム")
 
-expander = st.expander("問い合わせ")
-expander.write("問い合わせ内容")
+expander1 = st.expander("問い合わせ")
+expander1.write("問い合わせ内容")
+expander2 = st.expander("問い合わせ")
+expander2.write("問い合わせ内容")
